@@ -1,6 +1,20 @@
+/* set font to all body text */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --unique-color: #E76F51; 
+}
 .button-color{
-    background-color: #E76F51!important;
+    background-color: var(--unique-color)!important;
 }
 .head-content{
     background-color: #264653;
+}
+/* convert the image to grayscale */
+.effect{
+    filter: grayscale(1);
+}
+.short-head-text{
+    color: var(--unique-color);
 }

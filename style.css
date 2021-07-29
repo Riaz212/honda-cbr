@@ -2,6 +2,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 :root{
     --unique-color: #E76F51; 
 }
